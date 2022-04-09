@@ -1,0 +1,39 @@
+/* INFORMACIÓN HABITACIÓN */
+.title h1,
+.title h2 {
+    text-align: center;
+}
+
+.title h1.main {
+    font-size: 54px;
+    line-height: 64px;
+    padding: 60px 0 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 auto;
+}
+
+.title h1.main:after {
+    content: "";
+    display: block;
+    height: 1ex;
+    width: 80px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+}
+
+.title h2.subtitle {
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 40px;
+}
+
+.imagenes {
+    display: flex;
+}
+
+.imagenes img {
+    width: 25%;
+    padding: 2%;
+}
+

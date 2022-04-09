@@ -1,0 +1,264 @@
+
+.banner.montana-nacal{
+    background-image: url("../img/index/hotel1.jpg");
+    z-index: 1;
+}
+
+.banner.mirador-sureste{
+    background-image: url("../img/index/hotel2.jpg");
+     z-index: 1;
+    
+}
+
+.banner.cueva-marina-norte {
+    background-image: url("../img/index/hotel3.jpg");
+     z-index: 1;
+}
+
+
+.hotel-about {
+    width: 1180px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 50px;
+ 
+}
+
+.hotel-about .main-title-container {
+    padding-bottom: 20px;
+}
+
+.hoteles-heading{
+    
+    padding: 20px;
+    background: #fff;
+    box-shadow: 3px 3px 5px #999;
+    margin:  0 20px; 
+}
+
+
+.hoteles-heading h2{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #777;
+}
+
+.hotel-about .main-title {
+    color: #8DC6FF;
+    letter-spacing: 2px;
+    margin: 0;
+     text-shadow: 1px 1px 1px #777;
+}
+
+.hotel-about .main-title:after {
+    border: 0;
+}
+
+.hotel-about p {
+    text-align: justify;
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+        
+}
+
+
+
+/* HABITACIONES */
+.rooms {
+    width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    
+   
+}
+
+.room {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 15px;
+    margin-bottom: 50px;
+}
+
+
+.room img {
+    width: 100%;
+}
+
+.room p {
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.room h3 {
+    color: #8DC6FF;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 20px 0;
+ 
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #777;
+}
+
+.room p:last-of-type {
+    color: #878787;
+    font-size: 14px;
+}
+
+.room .button-more {
+    margin: 40px 0;
+}
+
+.room .button-more a {
+    padding: 15px 30px;
+}
+
+
+/* SERVICIOS */
+.servicios,
+.servicios-sec {
+    background-color: #f9f9f9;
+    padding: 40px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 96.6%;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.servicios-sec {
+    background-color: #fff;
+
+}
+
+    .services-notes {
+        
+        padding-right: 20px;
+        padding-bottom: 24px;
+        margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+
+
+.content_servicios {
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: #1c1c1c;
+}
+
+.content_servicios img {
+    width: 580px;
+}
+
+.servicio1 h3{
+    color: #c19b76;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+    .service {
+  
+    padding: 12px 0px;
+    }
+
+.servicios-sec .content_servicios h3{
+    
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Gilda Display', sans-serif;
+    
+}
+
+
+.text_content {
+    margin: 10px 35px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #878787;
+    line-height: 25px;
+   
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  
+
+    
+    .hotel-about {
+    width: 330px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+   
+    
+    .hotel-section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+}
+    .
+   
+}
+    
+    @media screen and (min-width: 740px) and (max-width: 940px) {
+        
+    .hotel-about {
+    width: 700px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+        
+
+    }
+    
+    @media screen and (min-width: 940px) and (max-width: 1200px) {
+        
+    .hotel-about {
+    width: 900px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+    .rooms {
+    width: 930px;
+
+}
+        
+        .service {
+    width: 230px;
+    padding: 12px 0px;
+    }
+        
+.content_servicios {
+    max-width: 840px;
+
+}
+        
+    .content_servicios img {
+    width: 420px;
+}
+        
+    .text_content {
+    margin: 10px 40px;
+
+}
+        
+        
+     
+        
+    }

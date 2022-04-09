@@ -1,0 +1,38 @@
+@media screen and (min-width: 340px) and (max-width: 767px) {
+    .rooms {
+        padding: 0 50px;
+        margin-bottom: 0;
+        width: 350px;
+        
+    }
+
+    .room {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .service-group {
+            
+        margin: 0;
+    }
+
+    .service {
+        width: 480px;
+        margin-bottom: 12px;
+    }
+
+    .content_servicios img {
+        width: 320px;
+        order: 2;
+    
+    }
+
+    .content_servicios .content {
+        width: 340px;
+        order: 1;
+        padding: 50px 0;
+    }
+    
+
+}

@@ -1,0 +1,27 @@
+/* TODA LA PAGINA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    background-color: #fff;
+    background-color: #f9f9f9;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: lighter;
+  
+}
+
+
+
+

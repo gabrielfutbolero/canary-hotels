@@ -1,0 +1,200 @@
+
+
+    
+.servicios-container{
+   
+    width: 100;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  auto 500px auto;
+ 
+    
+}
+    
+    .servicio-part img{
+    width: 300px;
+    padding: 0;
+    height: 190px;
+}
+
+.servicio-txt {
+    
+    padding: 20px 0;
+    width: 290px;
+    margin: 0 auto
+}
+
+
+
+
+.servicio-part{
+    text-align: center;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    height: 380px;
+    width:340px;
+    margin: 15px auto;
+    box-shadow: 3px 3px 5px #999;
+}
+
+
+
+
+.servicio-txt {
+    
+    padding: 20px 0;
+}
+
+
+
+.servicio-txt h3{
+    
+    text-shadow: 1px 1px 1px #777;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 15px ;
+       
+    
+}
+
+.servicio-txt p{
+  
+color: #878787;
+    
+}
+
+.servicios-filas{
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (min-width: 340px) and (max-width: 767px) {
+   
+    
+    
+.servicios-container{
+   
+    display:block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+    
+    .servicio-part{
+    margin: 35px auto;
+
+    width: 340px;
+
+}
+    
+    
+    .servicios-filas{
+    
+    display: block;
+}
+    
+    .servicio-part img{
+    width: 300px;
+    padding: 0;
+    height: 190px;
+}
+
+.servicio-txt {
+    
+    padding: 20px 0;
+    width: 290px;
+    margin: 0 auto
+}
+
+  
+}
+
+
+
+@media screen and (min-width: 767px) and (max-width: 940px) {
+   
+    
+    
+.servicios-container{
+   
+    width: 720px;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  360px auto;
+ 
+    
+}
+    
+    .servicio-part{
+    margin: 15px auto;
+    width: 340px;
+
+        
+}
+    
+    
+
+    
+    .servicio-part img{
+    width: 300px;
+    padding: 0;
+    height: 190px;
+}
+
+.servicio-txt {
+    
+    padding: 20px 0;
+    width: 290px;
+    margin: 0 auto
+}
+
+}
+
+
+@media screen and (min-width: 940px) and (max-width: 1200px) {
+   
+    
+.servicios-container{
+   
+    width: 890px;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  300px auto auto;
+   
+ 
+    
+}
+    
+    .servicio-part{
+    margin: 15px auto;
+
+    width: 270px;
+        
+  
+        
+}
+    
+    
+
+    
+    .servicio-part img{
+    width: 230px;
+    height: 150px;
+}
+
+.servicio-txt {
+    
+    padding: 20px 0;
+    width: 220px;
+    margin: 0 auto
+}
+
+}

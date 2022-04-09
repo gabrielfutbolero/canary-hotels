@@ -1,0 +1,363 @@
+.header {
+    background-color: #fff;
+	display: flex;
+    width: 100%; 
+}
+
+.header_logo {
+    padding: 2ex 8ex;
+    width: 180px;
+    float: left;
+    
+}
+
+.header-info{
+display: flex;
+
+}
+.menu-selector {
+    cursor: pointer;
+}
+
+
+.header-menu-correo {
+
+font-size: 15px;
+display: flex ; 
+justify-content: flex-end;
+margin-top: 10px;
+
+  
+}
+
+.header-menu-correo p {
+
+font-size: 15px;
+display: flex ; 
+margin-right: 10px;
+    margin-top: 4px;
+     
+}
+
+
+.logo_hotel {
+    display: block;
+    justify-content: center;
+	width: 140px;
+    height: 89px;
+    background: transparent url(../img/logo.png) no-repeat;
+    background-size: 140px 89px;
+}
+
+
+
+
+
+/* MENU GENERAL */
+.bt-menu .icon-menu {
+    color: #fff;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/index/menu2.png) no-repeat center;
+    margin: 0 auto;
+    cursor: pointer;
+  
+}
+
+.menu_bar {
+	display: none;
+}
+
+.header-menu {
+	width: 80%;
+	z-index: 100;
+    margin:  0 20px ;
+    float: left;
+    text-align: right;
+ 
+}
+
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+	display: inline;
+	transition: .5s;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+}
+.menu{
+    
+    margin-top: 50px; 
+}
+
+    .menu li {
+        list-style: none;
+        padding: 0;
+    }
+
+    .menu li {
+        line-height: 3rem;
+        position: relative;
+    }
+
+ul.menu > li:after {
+    content: "";
+    display: inline-block;
+    margin: 0 15px;
+}
+
+ul.menu > li:last-child:after {
+    content: "";
+    margin: 0;
+}
+
+ul.children a {
+    padding: 0 1em;
+    padding-top: 1em;
+}
+
+
+
+.menu li ul {
+	position: absolute;
+	display: none;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+
+.menu li > ul > li:hover {
+    background-color: #f0f0f0;
+}
+.menu li > ul > li:hover a {
+	color: #000;
+}
+
+
+.menu > li {
+display: inline-block;
+}
+
+/* SEGUNDO NIVEL */
+.menu li li {
+	background-color: #fff;
+	width: 220px;
+	transition: all .10s;
+	text-align: left;
+	border-bottom: 1px solid #f0f0f0;
+
+}
+
+
+.menu li li a {
+    display: block;
+	color: #000;
+
+    
+}
+
+.menu li li.active > a {
+    font-weight: 500;
+}
+
+.menu > li > ul {
+	top: 100%;
+}
+
+
+
+/* RESERVA */
+.menu .reserva_menu {
+    color: #c19b76;
+}
+
+
+
+
+
+@media screen and (max-width:1240px) {
+	.header-menu {
+        
+        width: 50%;
+		height:100%;
+		right:-100%;
+		margin:0;
+		position: fixed;
+		text-align: left;
+        padding: 0;
+        overflow: scroll;
+	}
+    
+    .header-menu-correo{
+        display: none;
+    }
+    
+    .header {
+    background-color: #fff;
+	display: inline-block;
+    width: 100%; 
+}
+
+.header_logo {
+    padding: 0;
+    width :100%;
+    
+}
+
+
+.logo_hotel {
+    display: inherit;
+	width: 140px;
+    height: 89px;
+    margin: 0 auto;
+    background: transparent url(../img/logo.png) no-repeat;
+    background: transparent url(../img/logo.png) no-repeat;
+    background-size: 140px 89px;
+    
+    
+    
+}
+  
+	.header-menu ul li {
+		display:block;
+		float:none;
+		padding: 10px 0;
+        padding-left: 20px; 
+ 
+	}
+
+
+    .menu{
+        
+        background: white;
+        margin-top: 0;
+        border-left: 1px solid #201087;
+    }
+    
+
+    
+    .menu .act{
+        border-top: 0px solid #201087;
+    }
+
+	.menu ul ul {
+		left: 0;
+	}
+
+	.menu li ul {
+		display: none;
+		position: relative;
+        
+       
+	}
+
+	.menu li ul li {
+		width: 100%;
+        padding: 20px 10px;
+         
+	}
+
+
+    .menu li:hover > ul {
+	display: block;
+}
+
+	
+	.menu_bar {
+		display:block;
+		
+        float: left;
+        padding: 1.55em 0 ;
+        float: left;
+        width: 32%;
+        
+	}
+    .menu li > ul > li:hover {
+    background-color: #fff;
+}
+    
+    .menu a {
+    color: black;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+
+    }
+
+
+	.menu_bar .bt-menu {
+		display:block;
+		color:#fff;
+		text-decoration:none
+		font-weight: bold;
+		text-align: center;
+          position: relative;
+        
+	}
+	.menu_bar span {
+		font-size:20px;
+	}
+    
+       ul.menu > li:after {
+    display: none;
+     
+}
+    
+     .header_logo {
+    padding: 4ex 0;
+  
+}
+    
+    .menu li> ul {
+		display: block;
+		color: black;
+		padding-left: 10px;
+	}
+    
+    .menu .lang li {
+   
+    border-right: 0px solid #f0f0f0
+}
+    
+
+
+    ul.menu > li:last-child:after {
+    content: "";
+    margin: 0;
+}
+    
+    .menu  .submenu li {
+	background-color: #000;
+    border-bottom: 1px solid #000;   
+  
+}
+    
+.menu li li {
+	
+	border-bottom: 0px solid #f0f0f0;
+
+}
+
+ul.children a {
+    padding: 0;
+
+}
+
+
+}
+
+@media screen and (max-width:320px) {
+
+.logo_hotel {
+    display: block;
+    justify-content: center;
+	width: 50px;
+    height: 60px;
+    background: transparent url(../img/logo.png) no-repeat;
+    background-size: 50px 31px;
+    margin-top: 23px; 
+}
+}

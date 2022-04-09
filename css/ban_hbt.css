@@ -1,0 +1,69 @@
+
+/* BANNER */
+.banner {
+    position: relative;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7%;
+    width: 100%;
+}
+
+.banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: -1;
+    background-color: #1c1c1c;
+    
+}
+
+.banner .title {
+    font-family: 'Gilda Display', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+.banner-text {
+    max-width: 100%;
+    padding: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 1px 1px 4px #777;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text .head {
+    font-size: 2.2vw;
+    padding-bottom: 10%;
+}
+
+.banner-text .lead {
+    font-size: 2.2vw;
+    font-family: 'Gilda Display', Times, serif;
+    margin-bottom: 15%;
+}
+
+.banner-container img {
+    width: 60%;
+}
+
+

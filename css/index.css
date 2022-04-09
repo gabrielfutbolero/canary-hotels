@@ -1,0 +1,239 @@
+/* BANNER */
+.banner {
+    background-size: cover !important;
+    background: url("../img/index/amadores-beach-slider.jpg") no-repeat center top;
+}
+.banner2 {
+    background-size: cover !important;
+    background: url("../img/QuienesSomos/summer-2337955_1920.jpg") no-repeat center top;
+}
+
+.banner3 {
+    background-size: cover !important;
+    background: url("../img/Galeria/PORTADA-01-Agaete-%20piscinas-%20-naturales-%20fotografia-patronato-de-turismo-de-gran-canaria.jpg") no-repeat center top;
+    height:200px;
+}
+
+
+.banner4 {
+    background-size: cover !important;
+    background: url("../img/Servicios/paisajes-canarios.png") no-repeat center top;
+}
+
+.banner5 {
+    background-size: cover !important;
+    background: url("../img/index/gettyimages-639505258_b23f5be7_1200x630.jpg") no-repeat center top;
+}
+
+.banner-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.banner-text {
+    width: 100%;
+    color: #fff;
+}
+
+
+
+.banner-text p {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 4px #777;
+  
+}
+
+.banner-text h1 {
+    font-size: 80px;
+    text-shadow: 1px 1px 4px #777;
+
+    
+}
+
+
+
+/* EL HOTEL */
+
+.container-hoteles-heading{
+    
+max-width: 100%;
+
+}
+
+.hoteles-heading{
+    
+
+    padding: 20px;
+    background: #fff;
+    box-shadow: 3px 3px 5px #999;
+    margin:  0 20px;
+    
+    
+}
+
+.hoteles-heading h2{
+    
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #777;
+}
+
+.hoteles-heading p{
+    
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #777;
+    
+}
+
+
+  
+     .hotel-text .text{
+         width: 500px;
+         padding-bottom: 20px ;
+ 
+       
+    }
+
+
+.hotel {
+    max-width: 1600px;
+    margin: 30px auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+
+}
+
+.hotel-text {
+    width:100%;
+    margin: 0 5%;
+    text-align: left;
+}
+
+
+.hotel-text p {
+    letter-spacing: 1px;
+    color: #878787;
+    text-align: justify;
+}
+
+.hotel-text p.head {
+    color: #000;
+    font-size: 20px;
+    line-height: 1em;
+    margin: 0.4em 0;
+}
+
+.hotel-text p.text {
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 10px;
+}
+
+.hotel img {
+    width: 600px;
+    padding-right: 3%;
+ 
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 767px) {
+    /* HOTEL */
+    .hotel {
+    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+
+
+    }
+    
+    .hotel-text p.text {
+     width: 350px;
+     
+}
+    
+    .hotel-text{
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+     
+}
+
+
+
+    .hotel img {
+    width: 350px;
+      padding: 0;
+
+    }
+
+
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 940px) {
+ 
+    
+  .hotel-text {
+       max-width: 280px;
+        text-align: left;
+       
+    }
+    
+    
+     .hotel-text .text{
+         width: 280px;
+    }
+    
+
+    .hotel img {
+    width: 380px;
+    padding-bottom: 200px;
+     
+}
+}
+
+@media screen and (min-width: 940px) and (max-width: 1200px) {
+    
+
+    
+    
+  .hotel-text {
+       max-width: 420px;
+        text-align: left;
+       
+    }
+
+    
+     .hotel-text .text{
+         width: 420px;
+    }
+    
+
+    .hotel img {
+    width: 380px;
+    padding-bottom: 100px;
+     
+}
+}
+    
+@media screen and (max-width: 940px) {
+    .banner-text h1 {
+        font-size: 48px;
+        padding: 0 24px;
+    }
+
+    .hotel-text {
+        padding: 0 0 40px;
+    }
+
+
+ 
+}

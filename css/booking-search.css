@@ -1,0 +1,129 @@
+.banner .booking-search,
+.booking-container .booking-search {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.booking-container {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.booking-search .fields {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    letter-spacing: 2px;
+    padding: 30px;
+    width: 100%;
+}
+.booking-search .sear {
+    color:black;
+    background-color: #000;
+    border: 2px solid #f9f9f9;
+        border-radius: 10px;
+
+  
+    
+}
+.sear input{
+    
+    background-color: black;
+    color: #fff;
+    
+}
+
+
+.booking-search .fields > .field {
+    width: 15%;
+    background-color: #fff;
+    border-right: 2px solid #f9f9f9;
+}
+
+.booking-search .fields > .field.hotel-selector {
+    width: 25%;
+}
+
+.booking-search.lone-hotel .fields > .field {
+    width: 20%;
+}
+
+.booking-search.lonehotel .fields > .field.hotel-selector {
+    width: 0;
+}
+
+
+.fields > div {
+    text-align: center;
+}
+
+.fields > div > .label {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #878787;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+
+.field .container-booking-selector,
+.field .hotel-selector {
+    text-align: center;
+    margin: 0 2px;
+    padding: 10px 4px;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    color: #878787;
+    width: 80%;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    .banner .booking-search {
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .banner .booking-search {
+        width: 50%;
+    }
+
+    .booking-search > form {
+        flex-direction: column;
+    }
+
+    .booking-search .fields {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    .booking-search .fields > .field.hotel-selector {
+        width: 100%;
+    }
+
+    .fields > div > .label {
+        margin: 4px 0 10px;
+    }
+
+    .booking-search .search {
+        width: 100%;
+    }
+
+    .booking-search .fields > .field {
+        border: 0;
+        margin: 10px auto 0;
+        width: 100%;
+    }
+}
+
+
+

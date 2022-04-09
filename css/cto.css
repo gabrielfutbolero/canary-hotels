@@ -1,0 +1,248 @@
+.banner {
+    background-image: url("../img/Contacto/hotel-en-la-playa-de-las-canteras-gran-canaria-kzl1q5vw3x.jpeg");
+}
+
+.hotel-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 495px;
+    margin:  auto 10px;
+    border: 10px solid #F8F8F8;
+    padding-top: 10px;
+}
+
+
+
+.hotel-contact p{
+    
+    color: #878787;
+    font-size: 14px;
+    line-height: 27px;
+
+}
+.hotel-info {
+    width: 370px;
+    padding: 25px 10px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+.hotel-info h2 {
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 12px;
+    font-weight: 500;
+
+
+
+}
+
+.hotel-image {
+    width: 380px;
+    padding:10px;
+
+    
+}
+
+  .hotel-info.hi2{
+  order: 2;
+}
+    
+
+
+
+.hotel-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+ .contact-container{
+        
+        display: flex;
+    }
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+   .hotel{
+    display: block;
+    }
+    
+    .contact-container{
+        
+        display: block;
+    }
+  .hotel-contact {
+      display: block;
+       margin: 25px auto;
+       width: 300px;
+       height: 480px;
+     
+    }
+    
+ 
+.hotel-contact p{
+    
+    color: #878787;
+    font-size: 14px;
+    line-height: 27px;
+    
+
+}
+.hotel-info {
+    width: 260px;
+    padding: 25px 10px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    
+}
+
+.hotel-info h2 {
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 12px;
+    font-weight: 500;
+
+
+
+}
+
+.hotel-image {
+    width: 280px;
+    padding:10px;
+    margin: 0 auto;
+    
+}
+    
+ .hotel-image img {
+    max-width: 260px;
+    border-radius: 5px;
+}
+    
+    
+    .hotel img {
+    width: 320px;
+    padding-bottom: 170px;
+     
+}   
+
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 940px) {
+      
+    .hotel{
+    display: block;
+    }
+    
+  .hotel-contact {
+       display: block;
+       margin: 25px auto;
+       width: 500px;
+       height: 550px;
+
+    }
+        .contact-container{
+        
+        display: block;
+    }
+ 
+
+
+.hotel-contact p{
+    
+    color: #878787;
+    font-size: 14px;
+    line-height: 27px;
+    
+
+}
+.hotel-info {
+    width: 370px;
+    padding: 25px 10px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    
+}
+
+.hotel-info h2 {
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 12px;
+    font-weight: 500;
+
+
+
+}
+
+.hotel-image {
+    width: 480px;
+    padding:10px;
+    margin: 0 auto;
+    
+}
+    
+ .hotel-image img {
+    max-width: 1200px;
+    border-radius: 5px;
+}
+    
+    
+    .hotel img {
+    width: 475px;
+    padding-bottom: 170px;
+     
+}   
+
+}
+    
+@media screen and (min-width: 940px) and (max-width: 1200px) {
+    
+    
+
+    .hotel-image {
+        width: 300px;
+
+    }
+    
+  .contact-container{
+    display: flex;
+}
+    
+    .hotel img {
+    width: 380px;
+    padding-bottom: 0;
+     
+}
+    
+.hotel-info {
+    width: 200px;
+    padding: 25px 10px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+      .hotel-contact {
+    margin:  auto 10px;
+    width: 265px;
+    height: 465px
+          
+    }
+    
+
+}
+
+    

@@ -1,0 +1,60 @@
+.button {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    margin: 25px 0 ;
+
+    
+}
+
+
+.button2{
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    margin: 25px 0 ;
+
+    
+}
+
+
+.button a {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #fff;
+}
+
+.button-read a {
+    font-weight: bold;
+    background-color: #8DC6FF;
+    padding: 15px 25px;
+    box-shadow: 3px 3px 5px #999;
+    
+}
+
+/* BOTONES FONDO GRIS */
+.button-more a {
+    
+    font-weight: bold;
+    background-color: #BDB9B9;
+    padding: 15px 26px;
+    box-shadow: 3px 3px 5px #999;
+
+   
+
+}
+
+.button-more2 a {
+    
+    font-weight: bold;
+    background-color: #BDB9B9;
+    padding: 15px 39px;
+    box-shadow: 3px 3px 5px #999;
+
+   
+
+}
+
+
